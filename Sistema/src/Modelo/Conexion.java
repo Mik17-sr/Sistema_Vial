@@ -9,7 +9,7 @@ public class Conexion {
         var baseDatos = "sistema_vial";
         var url = "jdbc:mysql://localhost:3306/" + baseDatos;
         var usuario = "root";
-        var password = "";
+        var password = "admin7942_";
         try{
             
             Class.forName("com.mysql.cj.jdbc.Driver");
